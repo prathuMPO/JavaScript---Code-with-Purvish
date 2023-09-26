@@ -28,6 +28,8 @@ let isLoggedIn = false
 console.log(typeof undefined) //undefined 
 console.log(typeof null)// is object
 
+Console.log("Numbe is the thing that");
+
 
 
 
