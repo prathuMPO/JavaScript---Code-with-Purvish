@@ -10,7 +10,7 @@ const outsidetemp = null
 
 const id = Symbol('256')   // this and down line has same value but retuen the different value cause of Symbol
 const anotherId = Symbol('256')
-console.log(id === anotherId)
+// console.log(id === anotherId)
 
 // const bigNumber = 246468468468464669469469496496n
 
@@ -29,8 +29,33 @@ let myibj = {
 }
 
 const myFunction = function(){
-    console.log(" Hello World");
+    // console.log(" Hello World");
 }
 
-console.log(typeof bigNumber);
-console.log(typeof myFunction);
+// console.log(typeof bigNumber);
+// console.log(typeof myFunction);
+
+// ********* Memories ********************************
+
+// Stack (primitives) - when we use it one more time then we get its copy niot orginal products,stack make copy of product to use it more time.
+// Heap(non-primitive) * whereAs here if we use it more time then we gets its original reference so if we change anything in secondtime it changes in 1st one aswell.both taleke ref. from memory stored in heap.
+
+let myYoutubeName = "SOLOFACTS"
+
+let anotherName = myYoutubeName
+
+anotherName = "bestOFfacts"
+
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let user1 = {
+    email: "user@fmail.com",
+    upi: " user@wdw"
+}
+
+let user2 = user1
+user2.email = " heving@vernvn.com"
+console.log(user1.email);
+console.log(user2.email);
