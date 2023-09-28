@@ -37,3 +37,29 @@ function loginUserMsg(username = "sam"){
 }
 // console.log(loginUserMsg("Purvish"))
 console.log(loginUserMsg()) // when you pass nothing you gor=t like undefined just loggedin
+
+
+function calculateCartPrice(val1, val2, ...num1){      // ... is rest operator here to get as many as values 
+    return num1
+
+}
+console.log(calculateCartPrice(200,400,502));
+
+const user = { 
+    username: "Poru",
+    price: 149
+}
+
+function handleObject(anyobject){
+    console.log(` Username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+handleObject(user)
+
+
+
+const myNewArr = [200,400,560,145]
+
+function returnSecondval(getArr){
+    return getArr[1]
+}
+console.log(returnSecondval(myNewArr))
