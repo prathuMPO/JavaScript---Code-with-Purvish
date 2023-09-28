@@ -84,7 +84,8 @@ console.log(courseguru);
     {}
 ]
 
-{
+ /* example of json objetcs :
+ {
     "results": [
       {
         "gender": "female",
@@ -149,4 +150,4 @@ console.log(courseguru);
       "page": 1,
       "version": "1.4"
     }
-  }
+  } */
