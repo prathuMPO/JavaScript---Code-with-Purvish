@@ -95,12 +95,16 @@ consumePromiseFive()
 
 // getAllUsers()
 
-fetch('https://api.github.com/users/prathuMPO')
-.then((response) => {
-    return response.json()
+// this code is for next lecture:
 
-})qqqw
-.then((data) =>{
-    console.log(data);
-})
-.catch((error) => console.log(error))
+// fetch('https://api.github.com/users/prathuMPO')
+// .then((response) => {
+//     return response.json()
+
+// })qqqw
+// .then((data) =>{
+//     console.log(data);
+// })
+// .catch((error) => console.log(error))
+
+
